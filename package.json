@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
+    "start": "node app.js",
     "dev": "nodemon app.js",
     "swagger-autogen": "node swagger.js",
     "test": "jest"
@@ -18,11 +18,13 @@
     "jest": "^28.1.3",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.19",
-    "save-dev": "^0.0.1-security",
     "swagger-autogen": "^2.21.5",
     "swagger-ui-express": "^4.5.0"
   },
   "engines": {
     "node": "16.x"
+  },
+  "devDependencies": {
+    "supertest": "^6.2.4"
   }
 }
